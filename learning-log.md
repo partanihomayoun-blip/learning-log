@@ -26,15 +26,15 @@ Nov 3 – Dec 7, 2026 · Goal: finish the frontend, learn backend basics, ship a
 
 ## Day 1 · 2026-11-03 · Week 1
 **Today's goal:** Set up the Claude Project and this learning-log repo; review semantic HTML
-**Built / practised:**
+**Built / practiced:**i built a new repository called learning log and then create a new file called learning-log.md inside main branch and then commit it inside github
 - Created the Claude Project (instructions + playbook PDF)
 - Created the `learning-log` repo on GitHub
 - 
-**Learned (in my own words):**
+**Learned (in my own words):** I learned how to create a new repository and new file inside that repository inside github
 - 
-**Still fuzzy:**how to create a repository and how to cerate a new file
+**Still fuzzy:**how to clone and commit on my local pc
 - 
 **Quiz score:** _/5 · **weak spots:**
 **Commits / live link:** https://github.com/partanihomayoun-blip/learning-log
 **Tomorrow's first task:** Box model + flexbox; finish the Google clone
-**Focused hours:**
+**Focused hours:**30 minutes
