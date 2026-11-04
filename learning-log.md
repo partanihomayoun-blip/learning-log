@@ -25,7 +25,7 @@ Nov 3 – Dec 7, 2026 · Goal: finish the frontend, learn backend basics, ship a
 ## Entries
 
 ## Day 1 · 2026-11-03 · Week 1
-**Today's goal:** Set up the Claude Project and this learning-log repo; review semantic HTML
+**Today's goal:** Set up the Claude Project and this learning-log repo
 **Built / practiced:**i built a new repository called learning log and then create a new file called learning-log.md inside main branch and then commit it inside github
 - Created the Claude Project (instructions + playbook PDF)
 - Created the `learning-log` repo on GitHub
