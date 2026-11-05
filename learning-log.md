@@ -28,6 +28,8 @@ Nov 3 – Dec 7, 2026 · Goal: finish the frontend, learn backend basics, ship a
 **Today's goal:**box model + flexbox + google clone
 **Built / practised:**cloned github repository on my local folder
 **Learned (in my own words):**how to set a local repository that is connected to the github and check how its connected to the github
+other things that i learned: ls .git/index.lock  rm <the exact path of the locked file from list command>  git commit "a short message that explains the changes of the file"  git push <remote name> <branch name> example: git push origin main
+git status git clone <the full address of the git repository that ends with .git> which is going to clone the whole repository
 and also what is mtu(maximum transmission unit): it is the biggest allowed packet of data which can get through a link at one piece
 - 
 **Still fuzzy:**
