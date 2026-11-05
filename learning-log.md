@@ -25,7 +25,7 @@ Nov 3 – Dec 7, 2026 · Goal: finish the frontend, learn backend basics, ship a
 ## Entries
 
 ## Day 2· 2026-11-4 · Week 1
-**Today's goal:**box model + flexbox + google clone
+**Today's goal:**box model + flexbox + google clone( not complished)
 **Built / practised:**cloned github repository on my local folder
 **Learned (in my own words):**how to set a local repository that is connected to the github and check how its connected to the github
 other things that i learned: ls .git/index.lock  rm <the exact path of the locked file from list command>  git commit "a short message that explains the changes of the file"  git push <remote name> <branch name> example: git push origin main
