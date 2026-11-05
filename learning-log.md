@@ -24,20 +24,22 @@ Nov 3 – Dec 7, 2026 · Goal: finish the frontend, learn backend basics, ship a
 
 ## Entries
 
-## Day 2· 2026-11-4 · Week 1
+## Day 2,3· 2026-11-4, 2026-11-5 · Week 1
 **Today's goal:**box model + flexbox + google clone( not complished)
 **Built / practised:**cloned github repository on my local folder
 **Learned (in my own words):**how to set a local repository that is connected to the github and check how its connected to the github
 other things that i learned: ls .git/index.lock  rm <the exact path of the locked file from list command>  git commit "a short message that explains the changes of the file"  git push <remote name> <branch name> example: git push origin main
 git status git clone <the full address of the git repository that ends with .git> which is going to clone the whole repository  git add <the name of the file you just changed>
 and also what is mtu(maximum transmission unit): it is the biggest allowed packet of data which can get through a link at one piece
-- 
-**Still fuzzy:**
+always start at your local file on pc and then push that file to the github online repository and if you make a change on online github repository fitst create a git pull command to bring back the changes
+inside local file on your pc and then create a git push so you do not run into git merge problems
+- git log --oneline --graph -5 git diff
+**Still fuzzy:**git fetch,  where is origin/main on git merge origin/main referring to?  git diff
 - 
 **Quiz score:** 3/5 · **weak spots:**1. The three file states (modified, staged, committed) versus commands that only show (git status)
 2. Remote (origin) versus branch (main)  3.What a lock file is, and rm versus git rm  4.Quotes around commit messages
 
-**Commits / live link:**
+**Commits / live link:**https://github.com/partanihomayoun-blip/learning-log
 **Tomorrow's first task:**Box model and flexbox and google clone
 **Focused hours:**1 hour
 
