@@ -32,7 +32,9 @@ and also what is mtu(maximum transmission unit): it is the biggest allowed packe
 - 
 **Still fuzzy:**
 - 
-**Quiz score:** _/5 · **weak spots:**
+**Quiz score:** 3/5 · **weak spots:**1. The three file states (modified, staged, committed) versus commands that only show (git status)
+2. Remote (origin) versus branch (main)  3.What a lock file is, and rm versus git rm  4.Quotes around commit messages
+
 **Commits / live link:**
 **Tomorrow's first task:**Box model and flexbox and google clone
 **Focused hours:**1 hour
