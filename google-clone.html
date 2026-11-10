@@ -3,52 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Google Clone Practice</title>
+    <title>Google Clone – Second Version</title>
+    <link rel="stylesheet" href="google-clone-style.css">
 </head>
 <body>
     <header>
         <nav aria-label="main navigation">
-            <a href="https://images.google.com" target="_blank" rel="noopener noreferrer">images</a>
-            <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">gmail</a>
+            <a href="https://images.google.com" target="_blank" rel="noopener noreferrer">Images</a>
+            <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">Gmail</a>
         </nav>
-        <h1>google</h1>
-        <p>my first practice of google clone</p>
+        <h1>Google</h1>
+        <p>Google clone second practice</p>
     </header>
 
     <main>
-        <search>
-            <form action="https://google.com/search" method="get">
-                <label for="search-query">search</label>
-                <input
-                    type="search"
-                    id="search-query"
-                    name="q"
-                    placeholder="search anything on google.com"
-                    dir="auto"
-                    required
-                >
-                <button type="submit">search</button>
-                <button type="button">i'm feeling lucky</button>
-            </form>
-        </search>
+        <form role="search" action="https://google.com/search" method="get">
+            <label for="search-query">Search</label>
+            <input
+                type="search"
+                id="search-query"
+                name="q"
+                placeholder="Search anything on google.com"
+                dir="auto"
+                required
+            >
+            <div class="form-buttons">
+                <button class="google-button" type="submit">Search</button>
+                <button class="google-button" type="button">I'm feeling lucky</button>
+            </div>
+        </form>
     </main>
 
     <footer aria-label="site footer">
-        <div>
-            <ul>
-                <li><a href="#">about</a></li>
-                <li><a href="#">advertising</a></li>
-                <li><a href="#">business</a></li>
-                <li><a href="#">how search works</a></li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <li><a href="#">privacy</a></li>
-                <li><a href="#">terms</a></li>
-                <li><a href="#">settings</a></li>
-            </ul>
-        </div>
+        <ul class="footer-links" aria-label="about google business">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search works</a></li>
+        </ul>
+        <ul class="footer-links" aria-label="google terms and settings">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
     </footer>
 </body>
 </html>
