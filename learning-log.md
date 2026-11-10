@@ -6,50 +6,104 @@ Nov 3 – Dec 7, 2026 · Goal: finish the frontend, learn backend basics, ship a
 
 ## Day __ · YYYY-MM-DD · Week __
 
-### 🎯 Goal
-- [ ] Main goal:
-- [ ] Stretch goal (optional):
-- **Status:** ✅ Done / 🟡 Partly done / ❌ Not done. **Why:**
+**Goal:**
+**Status:** ✅ Done / 🟡 Partly / ❌ Not done. **Why:**
 
-### 🛠️ Built / Practised
-- 
+### 🛠️ Built
+-
 
-### 📚 Learned (in my own words)
-#### Concepts
-- 
+### 📚 Learned
+-
 
-#### Commands / Code
-| Command / Snippet | What it does |
-|-------------------|--------------|
+### 💻 Code
+| Snippet | What it does |
+|---------|--------------|
 | `` | |
 
 ### ❓ Still Fuzzy
-- [ ] 
+- [ ]
 
-### ✔️ Resolved (from earlier fuzzy lists)
-- 
+### 🧱 Problems → Fixes
+- →
 
-### 🧱 Blockers / Errors I Hit
-- **Problem:** → **Fix:**
+### 📊 Wrap-up
+- **Quiz:** _/5 · weak spot:
+- **Commit:**
+- **Hours:**
+- **Tomorrow first:**
+- **Reflection:**
 
-### 📝 Quiz
-**Score:** _/5
+Repo: https://github.com/partanihomayoun-blip/learning-log
 
-**Weak spots:**
-1. 
 
-### 🔗 Commits / Live Link
-- Repo: https://github.com/partanihomayoun-blip/learning-log
-- Today's commit(s):
 
-### ⏭️ Tomorrow's First Task
-- 
+## Days 2026-11-08 + 2026-11-09 · Week 1
 
-### ⏱️ Focused Hours
-- 
+**Goal:** Build a basic Google homepage clone and practise flexbox
+**Status:** 🟡 Partly. **Why:** Skipped Nov 8 (no excuse). Did the work on Nov 9.
 
-### 💭 Reflection (1–2 lines)
-- What went well / what to change tomorrow:---
+### 🛠️ Built
+- Basic Google clone layout with light styling
+- Practised `display: flex` for the overall layout
+
+### 📚 Learned
+
+**Layout: ask this first**
+- Should the items in this section **stack** (column) or sit **side by side** (row)?
+
+**Flexbox**
+- `display: flex` on the parent puts its children in a row.
+- `justify-content` only decides *where* they sit on that row: start, center, end or spread out.
+- `gap` only works on a flex or grid container.
+
+**Box sizing**
+- `border-box`: the width you set is the whole box. Padding and border go inside, so the content shrinks.
+- `content-box`: the width you set is only the content. Padding and border are added outside, so the box gets bigger.
+- The content itself never grows, only the total box.
+
+**Inline elements (`<a>`)**
+- `<a>` is inline. It ignores top/bottom margin; left/right margin still works.
+- Fix: `display: inline-block;` makes vertical margin work.
+
+**Forms**
+- `type="search"` is for `<input>`, not `<button>`.
+- `type="button"` = the button does nothing by default.
+- A `<button>` inside a `<form>` with no type acts as **submit**.
+
+**Save for later:** the "visually hidden" pattern.
+
+### 💻 Code
+| Snippet | What it does |
+|---------|--------------|
+| `* { box-sizing: border-box; }` | Makes every element use border-box sizing |
+| `display: flex;` | Lines children up in a row |
+| `flex-direction: row / column;` | Side by side or stacked |
+| `justify-content: center;` | Positions items along the row |
+| `gap: 16px;` | Space between flex/grid children |
+| `flex: 1;` | Item grows to fill the leftover space |
+| `display: inline-block;` | Inline element that accepts vertical margin |
+| `margin` / `padding` | Space outside / inside the border |
+| `border: 1px solid black;` | Draws a border |
+| `border-radius: 24px;` | Rounds the corners |
+| `color` / `background-color` | Text colour / background colour |
+| `font-family` / `font-size` | Typeface / text size |
+
+### ❓ Still Fuzzy
+- [ ] Inline vs block vs inline-block elements
+- [ ] Cascading and descendant selectors (e.g. `nav a`)
+- [ ] When and where to use `<div>`
+
+### 🧱 Problems → Fixes
+- Margin on `<a>` did nothing vertically → `display: inline-block`
+
+### 📊 Wrap-up
+- **Quiz:** _/5 · weak spot:
+- **Commit:**
+- **Hours:** 3h
+- **Tomorrow first:**
+- **Reflection:**
+
+Repo: https://github.com/partanihomayoun-blip/learning-log
 
 ## Entries
 
