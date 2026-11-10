@@ -1,0 +1,104 @@
+/* ---------- Reset ---------- */
+
+* {
+    box-sizing: border-box;      /* width includes padding and border */
+}
+
+/* ---------- Page layout ---------- */
+
+body {
+    display: flex;
+    flex-direction: column;      /* header, main, footer stacked vertically */
+    min-height: 100vh;           /* page is at least as tall as the screen */
+    margin: 0;                   /* remove the browser's default 8px margin */
+    font-family: Arial, sans-serif;
+    color: #16171a;
+}
+
+main {
+    flex: 1;                     /* fills the free space, pushing the footer down */
+}
+
+/* ---------- Header ---------- */
+
+header {
+    padding: 16px;
+    text-align: center;          /* centers h1 and p */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;   /* links sit on the right */
+    gap: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;              /* use the body text color, not default blue */
+}
+
+/* ---------- Search form ---------- */
+
+form {
+    display: flex;
+    flex-direction: column;      /* input above the buttons */
+    align-items: center;         /* centers them horizontally */
+    padding: 0 16px;             /* keeps the input off the screen edges on mobile */
+}
+
+input[type="search"] {
+    font-family: inherit;        /* form elements don't inherit the font by default */
+    width: 100%;
+    max-width: 580px;            /* grows with the screen, never wider than 580px */
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;         /* half the height or more = pill shape */
+    margin-bottom: 16px;         /* space above the buttons */
+    padding: 0 20px;             /* keeps the text away from the rounded edges */
+}
+
+.form-buttons {
+    display: flex;
+    gap: 16px;
+}
+
+.google-button {
+    font-family: inherit;
+    height: 36px;
+    padding: 0 16px;
+    color: #16171a;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;   /* same as background = invisible until hover */
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;             /* hand cursor = clickable */
+}
+
+.google-button:hover {
+    border-color: #dfe1e5;       /* border appears on hover */
+}
+
+/* ---------- Footer ---------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;  /* one list left, one list right */
+    flex-wrap: wrap;             /* second list drops below the first on narrow screens */
+    gap: 16px;                   /* space between the two lists, also when wrapped */
+    padding: 16px 24px;
+    background-color: #f2f2f2;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;             /* links move to a new line on very small screens */
+    gap: 16px;                   /* space between the links */
+    padding: 0;                  /* remove the ul's default left indent */
+    margin: 0;                   /* remove the ul's default top/bottom margin */
+    list-style: none;            /* remove the bullets */
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #5f6368;              /* Google's footer grey */
+}
